@@ -18,17 +18,38 @@ tn = comb(len(A), 2) - tp - fp - fn
 return (tp + tn) / (tp + fp + fn + tn)
 ```
 
-### The main methods of the library look like this.
+## The main methods of the library look like this:
 
-![alt text](https://github.com/RuTiKeyOne/IndexRandLibrary/blob/master/doc/Screenshots/2.png)
+```C
+public: static double GetIndexRand (std:: vector‹int> clusters, std::vector<int> classes);
+private:
+static std:: vector‹int› Bincount(std::vector<int› clusters);
+static std:: vector‹int> Comb(std:: vector‹int› currentClusters, int number);
+static int Comb(int n, int k);
+static int Sum(std:: vector<int> currentVector):
+static std::vector<std::vector<int>› C_(std::vector<int› clusters, std::vector<int> classes);
+#pragma region Methods Get Tp
+static int GetTp(std:: vector‹int› clusters, std:: vector‹std:: vector‹int>› a);
+static void PushFirstElements(std:: vector<int›& firstElements, std: :vector<std: :vector<int>› a); static void PushIsSameValueFirstElements(std::set<int› setClusters, std: :vector<bool› indermediateIsSameValueFirstElements,
+std: :vector<int› firstElements, std::vector<std::vector<bool›>& isSameValueFirstElements);
+static void PushIterationsVectors(std: :vector<std::vector<bool›› isSameValueFirstElements, std::vector<int› intermediatelterationVectors,
+std:: vector<std:: vector‹int>>& iterationVectors, std: :vector<std::vector<int>> a);
+static void PushBinCountVectors(std::vector<std:: vector‹int>› iterationVectors, std::vector<std::vector<int>>& binCountVector); static void PushCombVectors(std::vector<std:: vector<int>>& combVectors, std::vector<std::vector<int>› binCountVectors);
+static void GetResult(std:: vector < std:: vector‹int>› combVectors, int& result); static std::set<int> GetSetClusters(std: :vector‹int> clusters);
+static long double GetFactorial(int N);
+```
 
 ## Connection the library
 
-![alt text](https://github.com/RuTiKeyOne/IndexRandLibrary/blob/master/doc/Screenshots/3.png)
+```C
+#include "IndexRand.h"
+```
 
 ## Using
 
-![alt text](https://github.com/RuTiKeyOne/IndexRandLibrary/blob/master/doc/Screenshots/4.png)
+```C
+IndexRandLibrary:: IndexRand:: GetIndexRand (std: vector‹int>{1, 1, 2, 2, 3, 3), std: :vector‹int› {1, 1, 1, 2, 2, 2});
+```
 
 ## Checking values
 
