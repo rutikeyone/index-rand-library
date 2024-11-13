@@ -1,8 +1,8 @@
+![GitHub](https://img.shields.io/github/license/IgorVolochay/Face-recognition?style=flat-square&color=blue) &nbsp;
 # Index Rand Library
 
-The implementation of finding the Rand index is necessary in clustering. 
-
-The example from Python was taken as a basis, the logic was rewritten in C++.
+## Description
+The implementation of finding the Rand index is necessary in clustering. The example from Python was taken as a basis, the logic was rewritten in C++.
 
 ![alt text](https://github.com/RuTiKeyOne/IndexRandLibrary/blob/master/doc/Screenshots/1.png)
 
