@@ -20,7 +20,7 @@ return (tp + tn) / (tp + fp + fn + tn)
 
 ## The main methods of the library look like this:
 
-```C
+```C++
 public: static double GetIndexRand (std:: vector‹int> clusters, std::vector<int> classes);
 private:
 static std:: vector‹int› Bincount(std::vector<int› clusters);
@@ -41,13 +41,13 @@ static long double GetFactorial(int N);
 
 ## Connection the library
 
-```C
+```C++
 #include "IndexRand.h"
 ```
 
 ## Using
 
-```C
+```C++
 IndexRandLibrary:: IndexRand:: GetIndexRand (std: vector‹int>{1, 1, 2, 2, 3, 3), std: :vector‹int› {1, 1, 1, 2, 2, 2});
 ```
 
