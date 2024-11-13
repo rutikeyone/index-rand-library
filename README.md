@@ -6,6 +6,7 @@ The implementation of finding the Rand index is necessary in clustering. The exa
 
 ```python
 import numpy as np from scipy misc import comb
+
 def rand_index_score(clusters, classes):
 tp_plus_fp = comb(np.bincount(clusters), 2) - sum()
 tp_plus_fn = comb(np. bincount (classes), 2) - sum()
